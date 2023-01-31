@@ -54,7 +54,7 @@ server.post("/card", (req, res) => {
     console.log(result);
     const response = {
       success: true,
-      cardURL: `https://project-promo-r-module-4-team-3-production.up.railway.app/card/${result.lastInsertRowid}`,
+      cardURL: `https://elenarentero-adacards.cyclic.app/card/${result.lastInsertRowid}`,
     };
     res.json(response);
   }
